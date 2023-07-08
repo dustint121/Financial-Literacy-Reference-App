@@ -1,0 +1,115 @@
+ <!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../../style.css">
+<style>
+.content {
+    display: block;
+  }
+</style>
+</head>
+<body>
+<!-- Side navigation -->
+<!-- <side-menu></side-menu> -->
+<div class="sidenav">
+  <a href="./inswz">About</a>
+  <a href="#services">Finances</a>
+  <button class="dropdown-btn">Dropdown <i class="fa fa-caret-down"></i>   </button>
+  <div class="dropdown-container">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+  <a href="#contact">Search</a>
+</div>
+
+
+<div class="main">
+    <h2>Finances</h2>
+    
+
+    <button type="button" class="collapsible">Money Management</button>
+    <div class="content">
+      <ul>
+        <li>
+            <pre><b>Money Management</b> :the day-to-day financial activities necessary to manage current personal economic resources 
+                  while working toward long-term financial security. </pre>
+        </li>
+        <li>
+            <pre><b>Main activities of Money Management:</b></pre>
+            <img src="../../images/money_management_activities.png" alt="Money Management" width="750" height="600"/>
+        </li>
+
+        <li style="margin-top:25px;"><b>How long to store financial records?</b></li>
+            <ul>
+              <li>Permanently : Birth certificates, wills, social security data, and real estates sales/purchases.</li>
+              <li>Investment records should be kept as long as you have said investments.</li>
+              <li>Federal tax records should be kept for 7 years.</li>
+            </ul>
+        </li>
+              
+      </ul>   
+    </div>
+
+    <button type="button" class="collapsible">Personal Financial Statements</button>
+    <div class="content">
+      <ul>
+        <li>The two main financial documents are the balance sheet and the cash flow statment.</li>
+        <li>
+            <pre><b>Balance Sheet</b> : used to report what you own(assets) and what you owe(liabilities) <b>NOW.</b> </pre>
+            <ul>
+              <li>Asset types:
+                <ul>
+                  <li>Liquid assets: cash and items that can quickly be converted into cash</li>
+                  <li>Real estate</li>
+                  <li>Personal possessions: automobiles,television, jewelry, etc.</li>
+                  <li>Investmnet assets</li>
+                </ul>
+              </li>
+              <li>Liability types:</li>
+                <ul>
+                  <li>Current liabilities: short-term payments you have to complete in full in less than a year</li>
+                  <li>Long-term liabilities: long-term payments you do not have to make in full within a year </li>
+                </ul>
+              </li>
+              <li><b>Net worth:</b> the difference between your total assets and your total liabilities</li>
+            </ul>
+        </li>
+
+        <li>
+          <pre><b>Cash Flow Statement</b> : used to report how cash flows in/out of your hands over a <b>period of time(month, year, etc.).</b> </pre>
+          <ul>
+            <li>Income - the inflows of cash for an individual or a family
+              <ul>
+                <li>Gross income: pre-tax income</li>
+                <li>Take-home pay/ net pay/ disposable income: after-tax income</li>
+                <li>Discretionary income: money left over after paying for housing, food, and other neccessities</li>
+              </ul>
+            </li>
+            <li><b>Inflow sources:</b> salary, savings, investments, grants, government benefits, etc.</li>
+            <li><b>Outflow sources:</b> fixed expenses and variable expenses
+              <ul>
+                <li>Fixed expenses: what you pay consistently month-to-month (rent, internet costs)</li>
+                <li>Variable expenses: inconsistent sources of costs month-to-month (clothes, dining, etc.)</li>
+                <li>Credit card usage is <b>NOT</b> counted in cash outflow unless it is a direct payment to the credit card</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>   
+      <img src="../../images/financial_statements.png" alt="Financial Statements" width="750" height="600"/>
+    </div>
+
+
+
+   
+</div>
+
+
+<!-- Logic for subsection collapsible and sidebar dropdown-->
+<script src="../../script.js"> </script> 
+
+</body>
+</html> 

@@ -1,0 +1,108 @@
+ <!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../../style.css">
+<style>
+.content {
+    display: block;
+  }
+</style>
+</head>
+<body>
+<!-- Side navigation -->
+<!-- <side-menu></side-menu> -->
+<div class="sidenav">
+  <a href="./inswz">About</a>
+  <a href="#services">Finances</a>
+  <button class="dropdown-btn">Dropdown <i class="fa fa-caret-down"></i>   </button>
+  <div class="dropdown-container">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+  <a href="#contact">Search</a>
+</div>
+
+
+<div class="main">
+    <button type="button" class="collapsible">Taxes</button>
+    <div class="content">
+      <ul>
+        <li>About a third of the money you earn will go to taxes</li>
+        <li>Four major categories of taxes</li>
+            <ul>
+              <li>Taxes on purchases (sales tax)</li>
+              <li>Taxes on property:    (real estate and personal property taxes)</li>
+              <li>Taxes on wealth:      (estate tax and inheritance tax)</li>
+              <li>Taxes on earnings:    income taxes(federal, state, and local level)</li>
+            </ul>
+        </li>        
+      </ul>
+    </div>
+        
+    <button type="button" class="collapsible">Calculating taxes</button>
+    <div class="content">
+      <p>Below is a diagram showing the process of calculating taxes:</p>
+      <img src="../../images/tax_calculation.png" alt="Tax Calculation" width="750" height="600"/>
+      <ul>
+        <li><b>Adjusting gross income(AGI):</b> gross income after specific additions and reductions
+            <ul>
+              <li>Additions: rental income and business profits</li>
+              <li>Reductions: contributions to IRA or insurance plan</li>
+            </ul>
+        </li>
+        <li style="margin-top:25px;"><b>Tax deductions:</b> an amount subtracted from AGI to arrive to taxable income; only one of two types can be selected:</li>
+          <ul>
+            <li>Standard deduction: a set amount that every taxpayer receives; as of 2021, the deduction is $12,550</li>
+            <li>Itemized deduction: expenses a taxpayer is allowed to deduct from AGI</li>
+              <ul><li>For medical and dental expenses, the deduction is equal to the total expenses after subtracting 7.5% of AGI</li></ul>
+          </ul>
+        <li style="margin-top:25px;"><b>Tax credits:</b> an amount subtracted directly from the taxes owned</li>
+        <li style="margin-top:25px;">Here is the 2021 table for taxes as well as an example calculation:
+          <img style="margin-top:25px;border: 5px;border-color: black;" src="../../images/tax_table.png" alt="Tax Calculation" width="900" height="600"/>
+          <img style="margin-top:25px;" src="../../images/tax_example_calculation.png" alt="Tax Calculation" width="750" height="600"/>
+        </li> 
+      </ul>   
+    </div>
+
+    <button type="button" class="collapsible">Tax Strategies</button>
+    <div class="content">
+      <ul>
+        <li><b>Tax evasion:</b> illegal methods for reducing taxes</li>
+        <li><b>Tax avoidance:</b> legal methods for reducing taxes</li>
+        <li>Retirement and Investment Plans
+          
+          <ul>
+            <li>Retirement plans are usually only tax-deferred(not counted) as long as you do not withdraw money from them before "retirement" age of 59 1/2 </li>
+            <li>Traditional IRA(individual retirement plan)</li>
+                <ul><li>A tax-defferred plan where you can contribute up to $6000(as of 2021) per year, or $7000 if you are above 50 years old</li></ul>
+            <li>ROTH IRA
+              <ul>
+                <li>Can contribute up to $6000 annually, while not tax-deductible, is tax-free after 5 years</li>
+                <li>Can be withdrawn without consquences if with disablility or for purchase of first home (max of $10,000)</li>
+              </ul>
+            </li>
+            <li>401K Plan
+              <ul>
+                <li>A tax-deffered retirement plan under an employer(as allowed by tax code 401K)</li>
+                <li>Can be moved to new employer/plan if job change occurs</li>
+              </ul>
+            </li>           
+          </ul>
+        
+        </li>
+
+        
+      </ul>
+    </div>
+   
+</div>
+
+
+<!-- Logic for subsection collapsible and sidebar dropdown-->
+<script src="../../script.js"> </script> 
+
+</body>
+</html> 

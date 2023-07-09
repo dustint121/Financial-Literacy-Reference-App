@@ -8,28 +8,45 @@
 <body>
 <!-- Side navigation -->
 <div class="sidenav">
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#clients">Clients</a>
-    <a href="#contact">Contact</a>
-    <button class="dropdown-btn">Dropdown <i class="fa fa-caret-down"></i>   </button>
+    <a href="/index.html">About</a>
+    <button class="dropdown-btn">Finances <i class="fa fa-caret-down"></i>   </button>
     <div class="dropdown-container">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+      <a href="pages\finances\financial_statements.html">Introduction</a>
+      <a href="pages\finances\financial_formulas.html">Formulas</a>
     </div>
-    <a href="#contact">Search</a>
+    <a href="pages\taxes\taxes.html">Taxes</a>
+    <a href="pages\housing\housing.html">Housing</a>
+    <button class="dropdown-btn">Insurance <i class="fa fa-caret-down"></i>   </button>
+    <div class="dropdown-container">
+      <a href="pages\insurance\insurance.html">Introduction</a>
+      <a href="pages\insurance\home_insurance.html">Housing Insurance</a>
+      <a href="pages\insurance\automobile_insurance.html">Automobile Insurance</a>
+      <a href="pages\insurance\health_insurance.html">Health Insurance</a>
+      <a href="pages\insurance\life_insurance.html">Life Insurance</a>
+    </div>
 </div>
 
 <div class="main">
-    <h2>Sidebar</h2>
-    <p>This sidebar is of full height (100%) and always shown.</p>
-    <p>Scroll down the page to see the result.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  </div>
+    <h2>Financial Literacy Reference Site: About</h2>
+    <div style=" display: grid;align-items: center; grid-template-columns: 1fr 1fr 1fr;column-gap: 5px;">
+      <img src="images/financial_literacy_image.png" alt="Image" width="500" height="500"/>
+      <div style="margin-left:20px;">
+        <p>The purpose of this website is to record the financial literacy information I have learned in a financial literacy course. 
+           I most certainly will not be able to retain all this information overtime, nor have access to the textbook long after the course. 
+        </p>
+        <p>  Hence, I decided to store all the information by making a website using the basics of HTML, CSS and JavaScript to create 
+                a useful place for financial referencing and to practice the basic web development tools.
+        </p>
+
+        <p>All the images on this site are provided by the book of reference for my financial literacy course, 
+                <a href="https://www.amazon.com/Personal-Finance-Jack-Kapoor/dp/1264101597">Personal Finance by Jack Kapoor</a>.
+        </p>
+
+        <p>For anyone happening to view my site, I hope that it helps you on your financial knowledge needs. <b>- Dustin Tran</b> </p>
+      </div>
+    </div>
+
+    
 
 <!-- Logic for subsection collapsible and sidebar dropdown-->
 <script src="script.js"> </script> 

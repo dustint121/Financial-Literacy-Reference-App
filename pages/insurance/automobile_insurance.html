@@ -1,0 +1,79 @@
+ <!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../../style.css">
+<style>
+.content {
+    display: block;
+  }
+</style>
+</head>
+<body>
+<!-- Side navigation -->
+<!-- <side-menu></side-menu> -->
+<div class="sidenav">
+  <a href="./inswz">About</a>
+  <a href="#services">Finances</a>
+  <button class="dropdown-btn">Dropdown <i class="fa fa-caret-down"></i>   </button>
+  <div class="dropdown-container">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+  <a href="#contact">Search</a>
+</div>
+
+
+<div class="main">
+    <h2>Automobile Insurance</h2>
+    <p>Automobile insurance is broken two into two major categories: bodily injury coverage and property damage coverage.</p>
+
+    <button type="button" class="collapsible">Categories</button>
+    <div class="content">
+      <img src="../../images/automobile_insurance_breakdown.png" alt="Automobile Insurance" width="1200" height="500"/>
+    </div>
+
+    <button type="button" class="collapsible">Categories Explanations</button>
+    <div class="content">
+      <ul>
+        <li><b>Bodily Injury Liability</b>: coverage for the risk of financial loss due to legal expenses, medical costs, lost wages, and other expenses
+               associated with injuries caused by an automobile accident for which the insured was responsible; for those <b>NOT IN</b> your automobile
+        </li>
+        <li><b>Medical Payments Coverage</b>: covers medical expenses for people injured in one's car or as a pedestrian; for those <b>IN</b> your automobile</li>
+        <li><b>Uninsured Motorist Protection</b>: coverage for the cost of injuries to a person and family members
+                caused by a driver with inadequate insurance or by a hit-and-run driver.
+        </li>
+        <br>
+        <li><b>Property Damage Liability</b>: coverage that protects a person against financial loss when that person damages the property of others</li>
+        <li><b>Collision Insurance</b>:  pays for damage to the insured's car when it is involved in an accident</li>
+        <li><b>Comprehensive Physical Damage</b>:   covers financial loss from damage to a vehicle caused by a risk other than a collision, 
+                such as fire, theft, glass breakage, hail, or vandalism.
+        </li>
+      </ul>
+    </div> 
+
+    <button type="button" class="collapsible">Numbers for Liability Insurance</button>
+    <div class="content">
+      <p>Liability insurance is usually expressed as three numbers.</p>
+      <ul>
+        <li>First number is the limit for claims that can be paid to one person</li>
+        <li>Second number is the limit for each accident</li>
+        <li>Third number is the limit for property damage liability</li>
+      </ul>
+      <img src="../../images/automobile_insurance_numbers.png" alt="Automobile Insurance Numbers" width="600" height="250"/>
+
+    </div> 
+
+</div>
+
+
+
+
+
+<!-- Logic for subsection collapsible and sidebar dropdown-->
+<script src="../../script.js"> </script> 
+
+</body>
+</html> 

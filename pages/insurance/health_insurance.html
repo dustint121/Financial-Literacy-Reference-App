@@ -1,0 +1,136 @@
+ <!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../../style.css">
+<style>
+.content {
+    display: block;
+  }
+</style>
+</head>
+<body>
+<!-- Side navigation -->
+<!-- <side-menu></side-menu> -->
+<div class="sidenav">
+  <a href="./inswz">About</a>
+  <a href="#services">Finances</a>
+  <button class="dropdown-btn">Dropdown <i class="fa fa-caret-down"></i>   </button>
+  <div class="dropdown-container">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+  <a href="#contact">Search</a>
+</div>
+
+
+<div class="main">
+    <h2>Health Insurance</h2>
+    <p><b>Health insurance</b> provides protection to alleviate the financial burdens of individuals sufferring from illness or injury.</p>
+
+
+    <button type="button" class="collapsible">Individual vs Group Plan</button>
+    <div class="content">
+      <p>Health insurance is sold as plan of a group plan or an individual plan.</p>
+      <ul>
+        <li>Group Plan
+            <ul>
+              <li>90% of all health insurance plans </li>  
+              <li>Most plans are employer or organization(labor unions) sponsored</li>  
+              <li>The Tax Cuts and Jobs Act of 2017 requires employers (>50 employees) to provide health insurance to employees  </li>  
+              <li>Most group plans have a <b>coordination of benefits(COB)</b> provision to combine multiple plans (if you have them) 
+                  and prevent you getting more than 100% coverage of your allowed medical needs.
+              </li>
+            </ul>
+        </li>   
+        <br>
+        <li>Individual Plan 
+            <ul>
+              <li>Covers either just you or your family </li>  
+              <li>Allows room to tailor the plan to your specific needs</li>  
+              <li><b>Suicide Clause</b>: states that if the insured dies by suicide during the first two years the policy is in force, the death benefit will <b>ONLY</b> equal the amount of the premium paid. </li>  
+            </ul>
+        </li>   
+      </ul>
+    </div>
+
+
+    <button type="button" class="collapsible">Types of Medical Coverage</button>
+    <div class="content">
+      <p>This is a list of the major categories that medical insurance can cover.</p>
+      <ul>
+        <li>Basic categories
+          <ul>
+            <li><b>Hospital Expense Insurance</b>: pays part or all of hospital bills for room, board, and other charges</li>  
+            <li><b>Surgical Expense Insurance</b>: pays part or all of the surgeon's fees for an operation</li>
+            <li><b>Physician Expense Insurance</b>: provides benefits for doctors' fees for nonsurgical care, x-rays, and lab tests.</li>
+            <li><b>Dental Expense Insurance</b>: usually includes a deductible and coinsurance provision</li>
+            <li><b>Vision Expense Insurance</b></li>
+          </ul>
+        </li>
+        <li>Comprehensive categories
+          <ul>
+            <li><b>Basic Health Insurance Coverage</b>: combination of hospital expense insurance, surgical expense insurance, and physician expense insurance</li>  
+            <li><b>Major Medical Expense Insurance</b>: pays most of the costs exceeding those covered by the hospital, surgical, and physician expense policies.
+              <ul>
+                <li>has a <b>deductible</b> provision that specifies an minimum the insured must pay before benefits become payable by the insurance company.</li>  
+                <li>has a <b>coinsurance</b> provision under which the policy holder must pay a specified percentage of the health bill after the deduction 
+                    before the rest is covered by the insurer</li> 
+              </ul>
+            </li>
+            <li><b>Hospital Indemnity Policy</b>: pays stipulated daily, weekly, or monthly cash benefits during hospital confinement</li>
+            <li><b>Long-term Care Insurance(LTC)</b>: pays for the cost of day-in, day-out care for long-term illness or disability</li>
+          </ul>
+        </li>
+      </ul>
+    </div>  
+
+
+    <button type="button" class="collapsible">Health Insurance Provisions</button>
+    <div class="content">
+      <p>This is a list of the major medical insurance provisions found in most policies.</p>
+      <ul>
+        <li><b>Eligibility</b></li>
+        <li><b>Assigned Benefits</b>: who gets the insurance payments(you or your doctor)</li>
+        <li><b>Internal Limits</b>: fixed amount of payment for hospital stays</li>
+        <li><b>Copayment</b>: a provision where the insured pays a flat amount for each medical service payment after the deductible has been met</li>
+        <li><b>Service Benefits</b>: gurantee full coverage to specific services, regardless of costs</li>
+        <li><b>Coordination of Benefits</b></li>
+        <li><b>Guaranteed Renewable</b>: insurer cannot cancel policy unless you fail to pay premiums on time</li>
+        <li><b>Cancellation and Termiation</b>: the specific situations where the insurer can cancel your policy</li>
+      </ul>
+    </div> 
+
+
+    <button type="button" class="collapsible">Government Health Care Programs</button>
+    <div class="content">
+      <p>Health insurance is sold as plan of a group plan or an individual plan.</p>
+      <ul>
+        <li>Medicare
+          <ul>
+            <li>a federal health insurance program for people 65 or older, people of any age with permanent kidney failure, and people with certain disabilities. </li>  
+            <li>has hospital insurance to cover hospital care</li>
+            <li>has mdeical insurance to pay for doctors' and other services</li>
+            <li>can pay for prescription drugs</li>
+            <img src="../../images/medicare_uncovered.png" alt="Uncovered by Medicare" width="750" height="600"/>
+          </ul>
+        </li>   
+        <br>
+        <li>Medicaid
+            <ul>
+              <li>a program of medical assistance to low-income individuals and families.</li>  
+              <li>each state has its specific implementation of Medicaid (e.g. Medi-Cal is California's implementation of Medicaid)</li>  
+            </ul>
+        </li>   
+      </ul>
+    </div>
+
+
+
+<!-- Logic for subsection collapsible and sidebar dropdown-->
+<script src="../../script.js"> </script> 
+
+</body>
+</html> 
